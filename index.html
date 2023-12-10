@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josue Ocanha Costa">
+    <meta name="description" content="Formulario com validação em javaScript">
+    <meta name="keywords" content="html, css, javascript, inputs">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Formulario de validação</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="content-form">
+            <div class="texto-chamada">
+                <h1 class="texto-chamada-titulo">
+                    FICOU COM DÚVIDA? <br>
+                    NOS MANDE UMA MENSAGEM!
+                </h1>
+
+                <p class="texto-chamada-detalhe">
+                    caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.
+                </p>
+
+            </div>
+
+            <form class="form">
+                <p class="input-box">
+                    <label for="name">
+                        <input type="text" name="nome" class="username" id="name" placeholder="Nome Completo * ">
+                        <span class="required">campo obrigatorio</span>
+                    </label>
+                </p>
+
+                <p class="input-box">
+                    <label for="email">
+                        <input type="text" name="email" class="usermail" id="email"
+                        placeholder="Seu melhor e-mail * ">
+                        <span class="required">campo obrigatorio</span>
+                    </label>
+                </p>
+
+                <p class="input-box">
+                    <label for="phone">
+                        <input type="number" name="phone" class="userphone" id="phone"
+                        placeholder="Telefone * ">
+                        <span class="required">campo obrigatorio</span>
+                    </label>
+                </p>
+
+                <p class="input-box">
+                    <label for="message">
+                        <textarea name="message" id="message" class="usermessage" placeholder="Sua menssagem * "></textarea>
+                        <span class="required">campo obrigatorio</span>
+                    </label>
+                </p>
+
+                <label for="button">
+                    <p>Campos obrigatorios * </p>
+                    <button class="send" id="button">Enviar</button>
+                </label>
+
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="./assets/js/index.js">
+    </script>
+</body>
+
+</html>
