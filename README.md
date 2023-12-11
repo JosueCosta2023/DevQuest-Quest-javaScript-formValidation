@@ -8,28 +8,30 @@ Objetivos:
 * Se preenchido os campos devem receber a cor VERDE 
 * Se vazio, os campos devem ficar vermelho e também e necessário exibir uma mensagem de "campo obrigatório" abaixo do campo que estiver vazio.
 
-
-## Maior desafio:
+## Maior dificuldade:
 * Criar a lógica de programação.
 * A maneira mais simples que encontrei foi trabalhar com funções, if e arrays.
 * O forEach foi uma das opções mas me perdi no processo, então realizei de forma mais simples mas com maior uso de código.
+
+## O que aprendi?
+* Simplificar meu pensamento lógico, costumo pensar em soluções complexas que muitas vezes me frustram mas este desafio me ajudou a encontrar um solução simples e funcional.
 
 ### Detalhes não executados
 * Não apliquei responsividade no projeto.
 * O javaScript deste projeto não valida o tipo e-mail
 * O javaScript deste projeto não valida o tipo number
 
-Apesar de não validar tipos no JavaScript eu utilzei INPUTS e tags semânticas que permitem apenas dados de e-mail e number nos respectivos campos. 
+Apesar de não validar tipos no JavaScript eu utilzei Input's e tags semânticas que permitem apenas dados de e-mail e number nos respectivos campos. 
 
 
-### Screamshots
-* Formulario inicial
+### Screenshots
+* Formulário inicial
 ** ![Imagem inicial do formulario](./assets/designer/default.png)
 
-* Formulario vazio
+* Formulário vazio
 ** ![Imagem Formulário Vazio](./assets/designer/default-red.png)
 
-* Formulario Preenchido
+* Formulário Preenchido
 ** ![Imagem Formulário preenchido](./assets/designer/default-green.png)
 
 
