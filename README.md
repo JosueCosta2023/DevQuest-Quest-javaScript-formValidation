@@ -3,7 +3,7 @@
 
 
 # Desafio: Formulário com validação simples
-Objetivos:
+## Objetivos:
 * Criar formulário com validação de campos.
 * Se preenchido os campos devem receber a cor VERDE 
 * Se vazio, os campos devem ficar vermelho e também e necessário exibir uma mensagem de "campo obrigatório" abaixo do campo que estiver vazio.
